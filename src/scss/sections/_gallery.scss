@@ -1,0 +1,36 @@
+.gallery {
+
+  padding: 1rem;
+
+  &__grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    border: 3px solid $color-yellow-dark;
+    height: 50rem;
+    background: #fff;
+    padding: 1rem;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .5);
+    img {
+      transition: all .4s ease-out;
+      height: 90%;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  &__rose {
+    opacity: .8;
+    width: 20rem;
+    margin-right: 20rem;
+    margin-bottom: -10rem;
+
+    &--beginning {
+      transform: rotate(180deg);
+      margin-left: 37rem;
+    }
+  }
+
+}

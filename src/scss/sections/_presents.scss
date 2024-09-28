@@ -1,0 +1,32 @@
+.presents {
+  border: 5px solid $color-yellow;
+  text-align: center;
+  border-top: 0;
+  border-bottom: 0;
+
+  &__container {
+    color: $color-white;
+    padding: 2rem;
+    width: 100%;
+    background-color: $color-yellow-text;
+  }
+
+  &__title {
+    background-color: $color-red;
+    font-weight: bold;
+    animation: growUp 1000ms ease-out infinite;
+  }
+
+  &__text {
+    margin-top: 3rem;
+    width: 90%;
+    margin: 0 auto;
+    color: #000;
+    font-weight: bold;
+  }
+
+  &__image {
+    width: 15rem;
+    margin: 2rem 0;
+  }
+}

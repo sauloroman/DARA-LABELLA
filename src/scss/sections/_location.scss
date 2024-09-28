@@ -1,0 +1,58 @@
+.location {
+  border: 5px solid $color-yellow;
+  text-align: center;
+  border-bottom: 0;
+  
+  &__container {
+    color: $color-white;
+    padding: 2rem;
+    width: 100%;
+    background-color: $color-red;
+  }
+
+  &__image {
+    margin-top: -2rem;
+  }
+
+  &__title {
+    margin: 2rem 0;
+    background-color: #efefef;
+    color: #000;
+    font-weight: bold;
+    animation: growUp 1000ms ease-out infinite;
+    
+    &--2 {
+      animation: growUp 1000ms ease-out infinite;
+      color: $color-red;
+      font-weight: bold;
+    }
+  }
+
+  &__text {
+    span {
+      font-size: 2rem;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+
+  &__place {
+    padding: 5rem 0;
+    width: 90%;
+    margin: 0 auto;
+    border: 5px solid $color-yellow-dark;
+    border-top: 0;
+    border-bottom: 0;
+    background-color: $color-white;
+  }
+
+  &__cake {
+    width: 20rem;
+  }
+
+  &__location {
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+}

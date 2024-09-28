@@ -1,0 +1,35 @@
+body {
+  font-family: $default-font-text;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+}
+
+a, button {
+  font-family: inherit;
+  font-size: 1.6rem;
+}
+
+h1, h2 {
+  font-family: $default-font-title;
+  letter-spacing: 5px;
+}
+
+.heading-primary {
+  animation: growUp 1000ms ease-out infinite;
+  font-weight: 800;
+  text-align: center;
+  font-size: 5.4rem;
+  background-image: linear-gradient( 
+    to right, 
+    $color-yellow-dark 0%, 
+    $color-yellow 100%
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.heading-section {
+  font-weight: 500;
+  font-size: 3.2rem;
+}

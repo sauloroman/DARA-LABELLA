@@ -1,0 +1,16 @@
+.music {
+
+  position: fixed;
+  top: 3%;
+  left: 4%;
+  z-index: 99;
+  background-color: #000;
+  padding: 1rem;
+  border-radius: 50%;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, .15);
+  animation: leftToRight 1000ms ease-out infinite;
+
+  &__image {
+    width: 2.5rem;
+  }
+}

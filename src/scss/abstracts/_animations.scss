@@ -1,0 +1,41 @@
+@keyframes leftToRight {
+  0% {
+    transform: translateX(-5px);
+  }
+  
+  50% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translateX(-5px);
+  }
+}
+
+@keyframes growUp {
+  0% {
+    transform: scale(.8);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+  
+  100% {
+    transform: scale(.8);
+  }
+}
+
+@keyframes growUpBig {
+  0% {
+    transform: scale(.8);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+  
+  100% {
+    transform: scale(.8);
+  }
+}

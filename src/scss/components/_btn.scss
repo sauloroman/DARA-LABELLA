@@ -1,0 +1,16 @@
+.btn {
+
+  display: inline-block;
+  width: 90%;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1rem;
+
+  &--yellow {
+    background-color: $color-yellow-text;
+    color: #fff;
+    font-weight: bold;
+  }
+
+} 

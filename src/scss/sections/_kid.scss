@@ -1,0 +1,25 @@
+.kid {
+
+
+  background-color: #fff;
+  padding: 4rem 0 8rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__name {
+    font-size: 4rem;
+    font-family: $default-font-title;
+    text-align: center;
+    font-weight: bolder;
+    position: absolute;
+    left: 50%;
+    background-color: $color-yellow-dark;
+    color: #000;
+    width: 100%;
+    line-height: 1.2;
+    letter-spacing: 10px;
+    transform: translateX(-50%);
+  }
+
+
+}

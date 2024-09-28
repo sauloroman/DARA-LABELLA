@@ -1,0 +1,30 @@
+.farewell {
+  padding: 5rem 0;
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: 50%;
+
+  &__photo {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  &__message {
+    padding: 0 .5rem;
+    animation: growUp 1000ms ease-out infinite;
+    background-color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    margin-bottom: 4rem;
+  }
+
+  &__text {
+    background-color: $color-red;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+}
