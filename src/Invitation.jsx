@@ -14,6 +14,7 @@ export const Invitation = () => {
         <Presents />
         <Confirm />
         <Farewell />
+        {/* <Footer /> */}
       </div>
     </>
   )

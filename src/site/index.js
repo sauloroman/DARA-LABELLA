@@ -6,3 +6,4 @@ export * from './05.Presents';
 export * from './06.Confirm';
 export * from './07.Farewell.jsx';
 export * from './08.Kid.jsx';
+export * from './09.Footer.jsx';
